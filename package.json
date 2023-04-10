@@ -1,0 +1,22 @@
+
+{
+  "name": "dokumen",
+  "version": "0.1.0",
+  "description": "My Document, Build With Nextra",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next build && next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdldev/dokument.git"
+  },
+  "dependencies": {
+    "next": "^13.3.0",
+    "nextra": "^2.3.0",
+    "nextra-theme-docs": "^2.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
