@@ -1,5 +1,8 @@
 {
   "index": "Introduction",
+  "doc": "Documentation",
+  "laravel": "Laravel",
+
   "about": {
     "title": "About",
     "type": "page"
