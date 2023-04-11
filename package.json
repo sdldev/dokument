@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.34.0",
+    "framer-motion": "^10.11.5",
     "next": "^13.3.0",
     "nextra": "^2.3.0",
     "nextra-theme-docs": "^2.3.0",
