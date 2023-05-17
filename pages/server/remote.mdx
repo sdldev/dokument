@@ -1,0 +1,23 @@
+# Remote server via ssh
+
+## Generate an SSH Key
+pilih salah satu
+
+`ssh-keygen -t rsa -b 4096`
+
+`ssh-keygen -t dsa `
+
+`ssh-keygen -t ecdsa -b 521`
+
+`ssh-keygen -t ed25519`
+
+## Copy the key to a server
+
+`ssh-copy-id username@ipserver
+`
+
+## Test the new key
+
+`ssh -i ~/.ssh/id_rsa.pub username@ipserver`
+
+[source https://www.ssh.com/academy/ssh/copy-id#generate-an-ssh-key](https://www.ssh.com/academy/ssh/copy-id#generate-an-ssh-key) 
